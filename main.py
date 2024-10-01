@@ -7,8 +7,8 @@ from aiogram.utils.exceptions import ChatNotFound
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = 'ВАШ_ТОКЕН'  # Замените на ваш токен
-CHANNELS = {'@blackrussia': 'Black Russia'}  # Словарь каналов: тэг канала -> название канала
+API_TOKEN = '7885286231:AAHLs5C70VNeZNN7e9OB_mYiKNZJ9ZGjcxc'  # Замените на ваш токен
+CHANNELS = {'@inceriumbest': 'ай чисто лев incerium'}  # Словарь каналов: тэг канала -> название канала
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
